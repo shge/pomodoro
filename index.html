@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117094943-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-117094943-1');
+</script>
+<title>Pomodoro Timer - ポモドーロタイマー</title>
+<meta name="description" content="Webブラウザ上で動作するシンプルなデザインのポモドーロタイマーです。ポモドーロテクニックを使用することで簡単に作業効率を高めることができます。">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="style.css?201804070024">
+<script src="script.js?201804070024"></script>
+</head>
+
+<nav class="navbar is-link is-fixed-top">
+  <div class="container">
+    <div class="navbar-brand">
+        <h1 class="navbar-item is-large title">Pomodoro Timer</h1>
+    </div>
+    <div id="nav" class="navbar-start"> <!-- Header --> </div>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+
+
+    <article class="message" style="margin-top: 3rem">
+      <div class="message-body content">
+        <input>分
+        <input>分休憩
+      </div>
+    </article>
+    <article class="message is-dark" style="margin-top: 3rem">
+      <div class="message-body content">
+      </div>
+    </article>
+  </div> <!-- .container -->
+</section>
+
+<footer class="footer">
+  <div class="columns is-flex-desktop">
+    <div class="column is-one-quarter" style="padding: 0 0.75rem"></div>
+    <div class="column is-one-quarter">© 2018 shge.github.io</div>
+    <div class="column is-one-quarter">
+      <a href="https://github.com/shge/pomodoro/issues/new">バグの報告などはこちらから</a>
+    </div>
+  </div>
+</footer>
