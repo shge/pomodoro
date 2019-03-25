@@ -1,0 +1,17 @@
+#circle {
+  display: table;
+  background-color: #eb4d4b;
+  border-radius: 100%;
+  width: 45vh;
+  height: 45vh;
+  margin: auto;
+  text-align: center;
+  overflow: hidden;
+  font-weight: bold;
+  color: white;
+}
+
+#timer {
+  font-size: 6rem;
+  margin-top: 10vh;
+}
